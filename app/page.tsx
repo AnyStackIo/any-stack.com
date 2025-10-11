@@ -442,7 +442,7 @@ export default function Home() {
                                     asChild
                                     className="bg-blue-600 hover:bg-blue-700 text-white px-12 py-4 text-lg rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-2xl border-0 font-medium"
                                 >
-                                    <a href="https://calendly.com/your-link" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://calendly.com/consulting-any-stack/30min" target="_blank" rel="noopener noreferrer">
                                         Schedule a Strategy Call
                                         <ArrowRight className="ml-3 w-5 h-5"/>
                                     </a>
