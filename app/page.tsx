@@ -232,20 +232,16 @@ export default function Home() {
             setTimeout(() => {
                 if (item === 'Careers') {
                     window.location.href = createPageUrl('Careers');
-                } else if (item === 'Team') { // Added Team page navigation
-                    window.location.href = createPageUrl('Team');
                 } else {
-                    const sections = ['services', 'process', 'team', 'about', 'careers', 'contact']; // Updated sections array
+                    const sections = ['services', 'process', 'about', 'careers', 'contact']; // Updated sections array
                     scrollToSection(sections[index]);
                 }
             }, 300); // Small delay to allow fade out
         } else {
             if (item === 'Careers') {
                 window.location.href = createPageUrl('Careers');
-            } else if (item === 'Team') { // Added Team page navigation
-                window.location.href = createPageUrl('Team');
             } else {
-                const sections = ['services', 'process', 'team', 'about', 'careers', 'contact']; // Updated sections array
+                const sections = ['services', 'process', 'about', 'careers', 'contact']; // Updated sections array
                 scrollToSection(sections[index]);
             }
         }
@@ -256,43 +252,43 @@ export default function Home() {
             title: "AWS Solutions Architect",
             subtitle: "Professional",
             provider: "AWS",
-            badgeUrl: "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de3975858d/aws-certified-solutions-architect-professional.png",
+            badgeUrl: "/certifications/aws-certified-solutions-architech.png",
             level: "Expert Level"
         },
         {
             title: "AWS DevOps Engineer",
             subtitle: "Professional",
             provider: "AWS",
-            badgeUrl: "https://images.credly.com/size/340x340/images/2d1b8022-2463-4861-a4be-a2335f3b7c4a/aws-certified-devops-engineer-professional.png",
+            badgeUrl: "/certifications/aws-certified-devops-professional.png",
             level: "Expert Level"
         },
         {
             title: "Certified Kubernetes",
             subtitle: "Administrator (CKA)",
             provider: "CNCF",
-            badgeUrl: "https://images.credly.com/size/340x340/images/8b8ed108-e77d-4258-89a7-955c45480ade/cka_from_cncfsite.png",
+            badgeUrl: "/certifications/certified-kubernetes-administrator.png",
             level: "Professional"
         },
         {
-            title: "AWS Security",
+            title: "AWS Database",
             subtitle: "Specialty",
             provider: "AWS",
-            badgeUrl: "https://images.credly.com/size/340x340/images/e83f2a8f-285b-437f-a65b-568339185794/aws-certified-security-specialty.png",
-            level: "Specialty"
+            badgeUrl: "/certifications/aws-certified-database-specialist.png",
+            level: "Speciality"
         },
         {
-            title: "Kubernetes Application",
-            subtitle: "Developer (CKAD)",
+            title: "Certified Kubernetes",
+            subtitle: "Security Specialist",
             provider: "CNCF",
-            badgeUrl: "https://images.credly.com/size/340x340/images/d880e61d-4537-4357-9a99-450f7f3292ea/ckad_from_cncfsite.png",
+            badgeUrl: "/certifications/certified-kubernetes-security-specialist.png",
             level: "Professional"
         },
         {
-            title: "AWS SysOps",
-            subtitle: "Administrator",
+            title: "AWS Machine Learning",
+            subtitle: "Specialty",
             provider: "AWS",
-            badgeUrl: "https://images.credly.com/size/340x340/images/3f643e06-96b6-496a-9a91-17b545431637/aws-certified-sysops-administrator-associate.png",
-            level: "Associate"
+            badgeUrl: "/certifications/aws-certified-machine-learning-specialist.png",
+            level: "Specialty"
         }
     ];
 
@@ -358,7 +354,7 @@ export default function Home() {
                             </button>
 
                             <div className="hidden md:flex space-x-10">
-                                {['Engagements', 'Process', 'Team', 'Why AnyStack', 'Careers', 'Contact'].map((item, index) => (
+                                {['Engagements', 'Process', 'Why AnyStack', 'Careers', 'Contact'].map((item, index) => (
                                     <button
                                         key={item}
                                         onClick={() => handleNavigation(item, index)}
@@ -381,7 +377,7 @@ export default function Home() {
                             <div
                                 className="md:hidden absolute top-full left-0 w-full bg-black/95 backdrop-blur-2xl border-b border-white/10">
                                 <div className="px-8 py-6 space-y-6">
-                                    {['Engagements', 'Process', 'Team', 'Why AnyStack', 'Careers', 'Contact'].map((item, index) => (
+                                    {['Engagements', 'Process', 'Why AnyStack', 'Careers', 'Contact'].map((item, index) => (
                                         <button
                                             key={item}
                                             onClick={() => handleNavigation(item, index)}
