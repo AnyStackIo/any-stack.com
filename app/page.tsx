@@ -688,7 +688,7 @@ export default function Home() {
                                 On-Demand AWS Leadership & Strategy
                             </p>
                             <p className="text-white/30 text-sm font-light">
-                                © 2025 AnyStack. All rights reserved.
+                                © 2025 AnyStack, LLC. All rights reserved.
                             </p>
                         </div>
                     </div>
