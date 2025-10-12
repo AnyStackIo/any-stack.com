@@ -278,9 +278,9 @@ export default function Home() {
         },
         {
             title: "Certified Kubernetes",
-            subtitle: "Security Specialist",
+            subtitle: "Application Developer",
             provider: "CNCF",
-            badgeUrl: "/certifications/certified-kubernetes-security-specialist.png",
+            badgeUrl: "/certifications/certified-kubernetes-application-developer.png",
             level: "Professional"
         },
         {
@@ -410,15 +410,6 @@ export default function Home() {
 
                     <div className="max-w-7xl mx-auto px-8 relative z-10">
                         <div className="text-center">
-                            {/* Apple-style badge */}
-                            <div className="mb-8">
-                                <div
-                                    className="inline-flex items-center px-6 py-3 rounded-full bg-white/5 backdrop-blur-lg border border-white/10 text-sm text-white/90 mb-8 hover:bg-white/10 transition-all duration-300">
-                                    <Briefcase className="w-4 h-4 mr-3 text-blue-400"/>
-                                    Your Fractional Head of AWS Infrastructure
-                                </div>
-                            </div>
-
                             {/* Apple-style typography */}
                             <h1 className="text-6xl md:text-8xl font-semibold mb-8 leading-none tracking-tight">
                                 On-Demand
