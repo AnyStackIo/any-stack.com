@@ -669,7 +669,7 @@ export default function Home() {
                             asChild
                             className="bg-blue-600 hover:bg-blue-700 text-white px-16 py-6 text-xl rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-2xl border-0 font-medium"
                         >
-                            <a href="https://calendly.com/your-link" target="_blank" rel="noopener noreferrer">
+                            <a href="https://calendly.com/consulting-any-stack/30min" target="_blank" rel="noopener noreferrer">
                                 Schedule Your Strategy Call
                                 <ArrowRight className="ml-3 w-6 h-6"/>
                             </a>
@@ -794,7 +794,7 @@ const ServiceDetailSection = ({service, onClose}) => {
                         asChild
                         className="bg-blue-600 hover:bg-blue-700 text-white px-16 py-6 text-xl rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-2xl border-0 font-medium"
                     >
-                        <a href="https://calendly.com/your-link" target="_blank" rel="noopener noreferrer">
+                        <a href="https://calendly.com/consulting-any-stack/30min" target="_blank" rel="noopener noreferrer">
                             Schedule Consultation
                             <ArrowRight className="ml-3 w-6 h-6"/>
                         </a>
